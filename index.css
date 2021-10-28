@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+html {
+overflow-y:scroll;
+font-size:120%;
+text-align:center;
+background:#fff;
+}
+
+header {
+display:inline-block;
+width:100%;
+background:#02e0fd;
+text-align:left;
+}
+
+header .flex {
+display:flex;
+-webkit-flex-wrap:wrap;
+-ms-flex-wrap:wrap;
+flex-wrap:wrap;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+}
+
+header ul {
+margin-left:auto;
+}
+
+ul {
+list-style:none;
+letter-spacing:.1em;
+font-size:xx-large;
+font-style:italic;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display:block;
+list-style-type:disc;
+margin-block-start:0;
+margin-block-end:0;
+margin-inline-start:0;
+margin-inline-end:auto;
+margin-right:auto;
+margin-left:auto;
+padding-inline-start:0;
+}
+
+li {
+list-style:none;
+}
+
+select {
+height:80px;
+width:83%;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:large;
+}
+
+input {
+display:inline-block;
+height:80px;
+width:27%;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:large;
+}
+
+h2 {
+font-size:x-large;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:#000;
+}
+
+footer {
+padding-top:15px;
+color:#fff;
+background:#64696d;
+border-top:solid 5px #555;
+}
+
+footer #foot-about {
+margin-bottom:10px;
+}
+
+footer #foot-about #foot-logo img {
+display:block;
+opacity:.6;
+text-align:center;
+max-width:20%;
+margin:auto;
+}
+
+footer #copyright {
+line-height:30px;
+color:#fff;
+font-size:1.2rem;
+text-align:center;
+border-top:solid 1px #fff;
+}
+
+footer #copyright a {
+text-decoration:none;
+color:#fff;
+font-size:1.2rem;
+}
+
+video {
+width:100%;
+}
+
+* {
+background-repeat:no-repeat;
+margin:0;
+padding:0;
+}
